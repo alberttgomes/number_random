@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+   
+<form action="">   
+<h2 class=titulo>Gerar números aleatórios: </h2>
+<br>
+<fieldset class = "tabela1">
+<p>Gerador: <input type = "text" id="qtd" value=""> inteiros aleatórios (máximo 1.000.000.000).</p>
+<p>Cada número inteiro deve ter um valor entre: <input type = "text" id = "min" value= ""> e <input type ="text" id = "max" value = ""></p>
+<p>Formar em <input type = "text" id = "coluna" value = ""> Colunas.</p>
+</fieldset>
+<br>
+<fieldset class = "tabela2">
+<p><b>Be patient! It may take a little while to generate your numbers...<b></p>
+
+</fieldset>
+<br>
+<input type="button" onclick="gerar()" id="envia" value="Get Numbers"> <button type = "button" onclick="reset()" id = "delete" value="">From delete</button>
+
+</form> 
+
+
+<br>
+
+ <pre id = "retorno"></pre>
